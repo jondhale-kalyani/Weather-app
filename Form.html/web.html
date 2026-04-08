@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Web Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* Header */
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Menu */
+        .menu {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .menu a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        /* Content */
+        .content {
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Footer */
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>E-License Portal</h1>
+</div>
+
+<!-- Menu -->
+<div class="menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<!-- Content -->
+<div class="content">
+    <h2>Welcome to Website</h2>
+    <p>This is a simple web page design for MCA project.</p>
+    <button onclick="showMsg()">Click Me</button>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p>© 2026 My Website</p>
+</div>
+
+<script>
+function showMsg() {
+    alert("Welcome to E-License Portal!");
+}
+</script>
+
+</body>
+</html>
